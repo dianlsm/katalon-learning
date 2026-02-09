@@ -20,9 +20,9 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.setText(findTestObject('Login Page/input_Username_username'), 'Admin')
+WebUI.setText(findTestObject('Login Page/input_Username_username'), 'Wrong')
 WebUI.setText(findTestObject('Login Page/input_Password_password'), 'admin123')
 WebUI.click(findTestObject('Login Page/button_login'))
-WebUI.verifyElementPresent(findTestObject('Dashboard Page/h6_Dashboard'), 10)
+WebUI.verifyElementPresent(findTestObject('Login Page/p_Invalid credentials'), 10)
 WebUI.closeBrowser()
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>open website</name>
+   <name>TC01_Login Valid</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>feb9036b-b1e6-408f-9b60-7ff12ee6802b</testCaseGuid>
+   <testCaseGuid>e93d1518-4066-436c-b517-98189f96b00a</testCaseGuid>
 </TestCaseEntity>

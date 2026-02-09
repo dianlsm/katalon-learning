@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Login_OrangeHRM</name>
+   <name>TC02_Login Invalid Username</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e93d1518-4066-436c-b517-98189f96b00a</testCaseGuid>
+   <testCaseGuid>7cba5f04-3726-4009-b34e-6c93d4433eb1</testCaseGuid>
 </TestCaseEntity>
