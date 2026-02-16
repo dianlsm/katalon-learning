@@ -1,0 +1,27 @@
+name: Katalon CI Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show project structure
+        run: dir
+
+      - name: Simulate test execution
+        run: echo "Katalon test execution simulation"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dummy-report
+          path: .
