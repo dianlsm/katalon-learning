@@ -9,9 +9,9 @@
    <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>10.4.2</modifiedVersion>
+   <modifiedVersion>10.4.3</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\Code\automation\katalon-learning\katalon-learning.prj</projectFileLocation>
+   <projectFileLocation>D:\Code\automation\github\katalon-learning\katalon-learning.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
